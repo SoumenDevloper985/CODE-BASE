@@ -16,24 +16,27 @@ Built a full-stack e-commerce web app using MongoDB, Express, React, Node (MERN)
 ---
 
 ## ⚙️ Tech Stack
-**Frontend:** React, Redux, React Router, Material-UI  
-**Backend:** Node.js, Express, MongoDB (Mongoose), JWT auth, WebSocket (Socket.io)  
-**Payments:** Stripe API (PCI‑compliant payment handling)  
-**Deployment:** Docker, hosted on Heroku/Vercel
+1.Frontend: React  
+2.Backend:Node.js, Express, MongoDB (Mongoose) 
+3.Database: MongoDB (Mongoose) 
+4.Payments: Razorpay API (PCI‑compliant payment handling)  
 
 ---
+
+## 📦 Prerequisites
+Node.js
+npm
+Javascript
+HTML & CSS
+MongoDB Shell
+MongoDB Compass(Optional)
+
+-----
 
 ## 🚧 Getting Started
 1. Clone repo & `cd my-mern-ecommerce`
 2. Install backend: `cd backend && npm install`
 3. Install frontend: `cd frontend && npm install`
-4. Copy `.env.example` → `.env`, add MongoDB URI and Stripe keys
+4. Copy `.env.example` → `.env`, add MongoDB URI and Razorpay keys
 5. Run: `npm run dev`
 
----
-
-
-## 📦 Future Enhancements
-- Add user reviews & ratings
-- Inventory tracking & low-stock alerts
-- Social login (Google, Facebook)
